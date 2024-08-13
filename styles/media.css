@@ -1,20 +1,41 @@
 /* ----------------------------------------Media Screen ----------------------------------------------------- */
 
 @media screen and (max-width: 559px) {
-    .nav-container > .bars {
+    .container{
+        width: 100%;
+    }
+    .bars {
         display: block;
+        padding-left: 40rem;
         font-size: 2rem;
     }
-}
 
-@media screen and ((min-width:768) and (max-width:992)) {
-    .nav-container >.bars {
+    .nav-options {
         display: none;
+    }
+
+    .nav-container {
+        margin-left: 10px;
+        padding-left: 20px;
     }
 }
 
-@media screen and (min-width:992) {
-    .nav-container >.bars {
+@media screen and ((min-width:600px) and (max-width:992px)) {
+    .container{
+        width: 100%;
+    }
+    .bars {
+        display: none;
+    }
+    .nav-container{
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .bars {
         display: none;
     }
 }
