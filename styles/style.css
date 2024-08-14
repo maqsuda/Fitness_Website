@@ -231,40 +231,60 @@ button {
 }
 
 .banner-section-right-1 {
-  width: 14rem;
+  margin: 0;
+  padding: 0;
+  width: 25rem;
   height: 96px;
-  left: 850px;
-  top: 700px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  backdrop-filter: blur(20px);
-  background: rgba(48, 48, 48, 0.54);
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9.07px;
+  backdrop-filter: blur(15.12px);
+  background: rgba(255, 255, 255, 0.1);
+margin-top: 10rem;
+}
+
+.banner-section-right-1 h3 {
+  /* margin-top: 5px; */
+  margin: 0;
+  padding: 0;
   text-align: left;
+}
+
+.banner-section-right-1 p {
+  margin-top: 5px;
 }
 
 
 .banner-section-right-3 {
-  width: 14rem;
+  margin: 0;
+  padding: 0;
+  width: 20rem;
   height: 96px;
-  left: 764px;
-  top: 556px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
-  
+  margin-top: 25rem;
+  margin-right: 800rem;
 }
+
+
+.banner-section-right-3 h3 {
+  /* margin-top: 5px; */
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.banner-section-right-3 p {
+  margin-top: 5px;
+}
+
 
 .icon-circle {
   background: rgb(230, 83, 60);
@@ -278,24 +298,11 @@ button {
 .banner-section-right-3 .icon-circle-desc {
   width: 10rem;
   height: 4rem;
-  border: 2px solid yellow;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 
-}
-
-.banner-section-right-3 .icon-circle-desc h5 {
-  width: 68px;
-  height: 24px;
-  border: 2px solid blue;
-}
-
-.banner-section-right-3 .icon-circle-desc p {
-  width: 108px;
-  height: 24px;
-  border: 2px solid blue;
 }
 
 .banner-play {
@@ -474,7 +481,7 @@ button {
   height: 218px;
   width: 25rem;
   /* background: rgba(6, 255, 210, 0.5); */
-  background: linear-gradient(180deg,rgba(6, 255, 210, 0.5) 0%,rgb(30, 30, 30) 50%,rgba(1, 1, 1, 0.719) 100%);
+  background: linear-gradient(180deg, rgba(6, 255, 210, 0.5) 0%, rgb(30, 30, 30) 50%, rgba(1, 1, 1, 0.719) 100%);
   /* background: linear-gradient(45deg,rgba(6, 255, 210, 0.5),rgba(255, 255, 255, 0.5)), url('images/exercise-1.jpg'); */
 }
 
