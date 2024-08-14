@@ -44,15 +44,19 @@
           <button>Download App</button>
         </div>
       </div>
-      <div class="banner-section-right">
-        <div class="banner-section-reght-1">
-          <div class="banner-play">
-            <i class="fa-solid fa-play"></i>
-          </div>
-          <h3>500+</h3>
+
+      <!-- right -->
+
+      <div class="banner-section-right banner-img">
+        <div class="banner-play">
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <!--  -->
+        <div class="banner-section-right-1">
+          <h3>1 500+</h3>
           <p>Free Workout Videos</p>
         </div>
-        <div class="banner-section-right-2 banner-img"></div>
+        <!-- <div class="banner-section-right-2 banner-img"></div> -->
         <div class="banner-section-right-3">
           <div class="icon-circle"></div>
           <div class="icon-circle-desc">
@@ -63,10 +67,12 @@
       </div>
     </section>
 
+    <!-- -------------------------------------------Change your habit-------------------------- -->
+
     <section class="container">
       <div class="change-your-habits">
         <div class="change-your-habits-content">
-          <h3>Change Your Habits</h3>
+          <h2>Change Your Habits</h2>
           <p>
             We believe fitness should be accessible to everyone, everywhere,
             regardless of income or access to a gym.
@@ -97,27 +103,34 @@
       </div>
     </section>
 
-    <section>
-      <div class="run-as-extra-mile-easily container">
+    <!-- -------------------------------------------Run Extra mile easily--------------------- -->
+
+    <section class="container">
+      <div class="run-as-extra-mile-easily">
         <div class="run-as-extra-mile-easily-content">
-          <h3>Run an Extra <br />Mile Easily</h3>
+          <h3>
+            Run an Extra<br />
+            Mile Easily
+          </h3>
           <p>
             We believe fitness should be accessible to everyone, everywhere,
             regardless of income or access to a gym. With hundreds of
             professional workouts.
           </p>
-          <button type="button">Join Now</button>
+          <button class="btn-primary">Join Now</button>
         </div>
         <div class="run-as-extra-mile-easily-img">
           <img src="images/run.jpg" alt="" />
         </div>
       </div>
     </section>
-    <!-- 
+
+    <!-- --------------------------------Training and Exercise-------------------------------- -->
+
     <section class="container">
       <div class="training-and-exercise">
         <div class="training-and-exercise-content">
-          <h3>Trainings and Exercises</h3>
+          <h2>Trainings and Exercises</h2>
           <p>
             We believe fitness should be accessible to everyone, everywhere,
             regardless of income or access to a gym.
@@ -131,93 +144,109 @@
           </div>
           <div class="training-and-exercise-img-part-2">
             <img src="images/exercise-4.png" alt="" />
-            <img src="images/exercise-5.png" alt="" />
-            <img src="images/exercise-6.png" alt="" />
+            <img src="images/exercise-5.jpg" alt="" />
+            <img src="images/exercise-6.jpg" alt="" />
           </div>
         </div>
       </div>
     </section>
- -->
 
-    <div class="container calculator-container">
-      <div class="calculator-bmi-chart">
-        <h3>BMI Calculator Chart</h3>
-        <table>
-          <tr>
-            <th>BMI</th>
-            <th>Weight Status</th>
-          </tr>
+    <!-- ---------------------------------------------BMI Calculation------------------------------------ -->
 
-          <tr>
-            <td>Below 18.5</td>
-            <td>Underweight</td>
-          </tr>
-          <tr>
-            <td>18.5-24.9</td>
-            <td>Healthy</td>
-          </tr>
-          <tr>
-            <td>25.0-29.9</td>
-            <td>Overweight</td>
-          </tr>
-          <tr>
-            <td>30.0 and Above</td>
-            <td>Obese</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="calculator-bmi">
-        <h3>Calculate your BMI</h3>
+    <section class="container bmi-Calculation-container">
+      <div class="bmi-calculator-content">
+        <h2>BMI Calculator</h2>
         <p>
           We believe fitness should be accessible to everyone, everywhere,
           regardless of income or access to a gym.
         </p>
-        <form action="">
-          <input type="text" placeholder="Height/cm" />
-          <input type="text" placeholder="Weight/kg" />
-          <br />
-          <input type="text" placeholder="Age" />
-
-          <br />
-          <button name="cal">Calculate</button>
-        </form>
       </div>
-    </div>
 
+      <div class="bmi-calculation">
+        <div class="calculator-bmi-chart">
+          <h5>BMI Calculator Chart</h5>
+          <table>
+            <tr>
+              <th>BMI</th>
+              <th>Weight Status</th>
+            </tr>
 
-<!-- -------------------------------------------Meet Our Team-------------------------------- -->
+            <tr>
+              <td>Below 18.5</td>
+              <td>Underweight</td>
+            </tr>
+            <tr>
+              <td>18.5-24.9</td>
+              <td>Healthy</td>
+            </tr>
+            <tr>
+              <td>25.0-29.9</td>
+              <td>Overweight</td>
+            </tr>
+            <tr>
+              <td>30.0 and Above</td>
+              <td>Obese</td>
+            </tr>
+          </table>
+        </div>
 
+        <!--  -->
+        <div class="calculator-bmi">
+          <h5>Calculate your BMI</h5>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+          <form action="" class="form-input">
+            <table>
+              <tr>
+                <td>Height/cm</td>
+                <td>Weight/kg</td>
+              </tr>
 
+              <tr>
+                <td>Age</td>
+                <td>Sex</td>
+              </tr>
+              <tr>
+                <td colspan="2">Select an activity factor</td>
+              </tr>
+            </table>
 
-    <section>
-      <div class="meet-our-team-container">
-        <div class="team-content">
-          <div class="header-part">
-            <h4>Meet Our Team</h4>
-            <p>
-              We believe fitness should be accessible to everyone, everywhere,
-              regardless of income or access to a gym
-            </p>
+            <button class="btn-primary">Calculate</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------Meet Our Team-------------------------------- -->
+
+    <section class="container meet-our-team-container">
+      <div class="team-content">
+        <div class="header-part">
+          <h4>Meet Our Team</h4>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym
+          </p>
+        </div>
+        <div class="team-img">
+          <div class="team-img-part-1">
+            <img src="images/trainer-1.png" alt="" />
+            <img src="images/trainer-2.png" alt="" />
+            <img src="images/trainer-3.png" alt="" />
           </div>
-
-          <div class="team-img">
-            <div class="team-img-part-1">
-              <img src="/images/trainer1.png" alt="" />
-              <img src="/images/trainer2.png" alt="" />
-              <img src="/images/trainer3.png" alt="" />
-            </div>
-            <div class="team-img-part-2">
-              <img src="/images/trainer4.png" alt="" />
-              <img src="/images/trainer5.png" alt="" />
-              <img src="/images/trainer6.png" alt="" />
-            </div>
+          <div class="team-img-part-2">
+            <img src="images/trainer-4.png" alt="" />
+            <img src="images/trainer-5.png" alt="" />
+            <img src="images/trainer-6.png" alt="" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="footer-container container">
+    <!-- -----------------------------------------------------Footer --------------------------- -->
+    <section class="container footer-container">
       <div class="footer-content">
         <div class="part-1">
           <h1>Fitness</h1>
