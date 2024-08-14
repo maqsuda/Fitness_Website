@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 90%;
   font-family: "Inter", sans-serif;
   font-family: "Grey Qo", cursive;
   color: white;
@@ -458,7 +458,7 @@ button {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+border: 2px solid red;
 }
 
 .training-and-exercise-img-part-2 {
@@ -466,19 +466,20 @@ button {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  border: 2px solid red;
 }
 
 
 .training-and-exercise-img-part-1 img:nth-child(1) {
   height: 218px;
-  width: 18rem;
+  width: 25rem;
   background: rgba(6, 255, 210, 0.5);
 }
 
 
 .training-and-exercise-img-part-1 img:nth-child(2) {
   height: 218px;
-  width: 48rem;
+  width: 50rem;
   background: rgba(255, 0, 0, 0.3);
 
 }
@@ -486,6 +487,7 @@ button {
 
 .training-and-exercise-img-part-1 img:nth-child(3) {
   height: 218px;
+  width: 32rem;
   background: rgba(6, 255, 210, 0.5);
 
 }
@@ -493,21 +495,21 @@ button {
 
 .training-and-exercise-img-part-2 img:nth-child(1) {
   height: 218px;
-  width: 30rem;
+  width: 32rem;
   background: rgba(6, 255, 210, 0.5);
 }
 
 
 .training-and-exercise-img-part-2 img:nth-child(2) {
   height: 218px;
-  width: 22rem;
+  width: 25rem;
   background: rgba(255, 0, 0, 0.3);
 }
 
 
 .training-and-exercise-img-part-2 img:nth-child(3) {
   height: 218px;
-  width: 38rem;
+  width: 50rem;
   background: rgba(6, 255, 210, 0.5);
 
 }
@@ -824,4 +826,41 @@ button {
   justify-content: center;
   align-items: center;
 
+}
+
+
+/* ----------------------------------------Media Screen ----------------------------------------------------- */
+
+@media screen and (max-width: 559px) {
+  .container{
+      width: 100%;
+  }
+  .bars {
+      display: block;
+      padding-left: 40rem;
+      font-size: 2rem;
+  }
+
+  .nav-options {
+      display: none;
+  }
+
+  .nav-container {
+      margin-left: 10px;
+      padding-left: 20px;
+  }
+}
+
+@media screen and ((min-width:600px) and (max-width:992px)) {
+  .container{
+      width: 100%;
+  }
+  .bars {
+      display: none;
+  }
+  .nav-container{
+      margin: 0;
+      padding: 0;
+      justify-content: space-between;
+  }
 }
