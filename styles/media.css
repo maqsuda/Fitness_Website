@@ -1,0 +1,93 @@
+/* ----------------------------------------Media Screen ----------------------------------------------------- */
+
+@media screen and (max-width: 559px) {
+    .bars {
+        display: block;
+        padding-left: 18rem;
+        font-size: 2rem;
+    }
+
+    .nav-options {
+        display: none;
+    }
+
+    .nav-container {
+        width: 22rem;
+        height: 3rem;
+        margin-left: 1.25rem;
+        margin-top: 3.25rem;
+    }
+
+    .banner-section {
+        width: 28rem;
+        height: 78rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.25rem;
+
+    }
+
+    .banner-section-left {
+        width: 22rem;
+        height: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner-section-left h1 {
+        font-size: 36px;
+      
+font-weight: 900;      
+      }
+      
+    .banner-section-left p {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        width: 22rem;
+        height: 5rem;
+
+    }
+
+    .banner-section-right {
+        width: 353px;
+        height: 36rem;
+        left: 20px;
+        margin-top: 20rem;
+    }
+
+    .banner-section-left button {
+        width: 169px;
+        height: 54px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and ((min-width:560px) and (max-width:992px)) {
+    .bars {
+        display: none;
+    }
+
+    .nav-container {
+        width: 43rem;
+        height: 2.5rem;
+        margin-left: 1.8rem;
+        margin-top: 3.25rem;
+    }
+
+
+    .nav-options {
+        width: 22.25rem;
+        height: 2.25rem;
+        gap: 1rem;
+        padding-right: 3rem;
+    }
+
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+
+    }
+
+}
