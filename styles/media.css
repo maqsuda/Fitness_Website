@@ -18,6 +18,7 @@
         margin-top: 3.25rem;
     }
 
+    /* ---------
     .banner-section {
         width: 28rem;
         height: 78rem;
@@ -60,7 +61,207 @@ font-weight: 900;
         font-size: 14px;
         font-weight: 600;
     }
+---------- */
 
+    /* -------------------------------Habits-------------------------------- */
+    .change-your-habits {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .change-your-habits-content h2 {
+        font-size: 36px;
+    }
+
+    .change-your-habits-img {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+
+    /* ---------------------------------------Run an Extra -------------------- */
+    .run-as-extra-mile-easily {
+        flex-direction: column;
+        width: 353px;
+        height: 531px;
+        margin: 2rem 0;
+    }
+
+    .run-as-extra-mile-easily-content {
+        width: 90%;
+        height: 340px;
+    }
+
+    .run-as-extra-mile-easily-content h3 {
+        width: 287px;
+        height: 76px;
+        font-size: 32px;
+        padding-bottom: 1.5rem;
+    }
+
+    .run-as-extra-mile-easily-content p {
+
+        width: 287px;
+        height: 96px;
+        font-size: 14px;
+        padding-bottom: 1.5rem;
+    }
+
+    .run-as-extra-mile-easily-content button {
+        width: 287px;
+        height: 54px;
+        padding-bottom: 1rem;
+        margin-left: 12rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .run-as-extra-mile-easily-img img {
+        width: 287px;
+        height: 170px;
+    }
+
+
+    /* ------------------------------Training and exercise ------------------------------ */
+
+    .training-and-exercise-content h2 {
+        font-size: 36px;
+    }
+
+    .training-and-exercise-img .te-3 img, .te-3 p {
+        display: none;
+
+    }
+
+    .training-and-exercise-img .te-6 img, .te-6 p {
+        display: none;
+        width: 353px;
+    }
+
+    .training-and-exercise-img-part-1 {
+        grid-template-columns: 0.75fr 1.25fr;
+    }
+
+
+    .training-and-exercise-img-part-2 {
+        grid-template-columns: 1.25fr 0.75fr;
+    }
+
+    /* -------------------------------BMI Calculation------------------------- */
+
+    .bmi-calculator-content {
+        margin: 0;
+        padding: 0;
+        height: 90%;
+    }
+
+    .bmi-calculation {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 2px;
+    }
+
+
+    .bmi-calculator-content h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .bmi-calculator-content p {
+        margin: 0;
+        padding: 0;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .calculator-bmi-chart {
+        margin: 0;
+        width: 90%;
+        padding-left: 2px;
+        height: auto;
+    }
+
+    .calculator-bmi-chart table {
+        margin-bottom: 1rem;
+    }
+
+    .calculator-bmi {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .calculator-bmi h5 {
+        padding: 0;
+        margin: 0;
+        margin: 20px;
+    }
+
+    .calculator-bmi p {
+        width: auto;
+        height: auto;
+
+    }
+
+    .calculator-bmi button {
+        margin-bottom: 20px;
+    }
+
+    /* -----------------------------------Meet our team----------------- */
+    .meet-our-team-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-top: 1rem;
+
+
+    }
+
+    .team-content {
+        margin-top: 1rem;
+
+    }
+
+    .header-part p {
+        width: 309px;
+        height: 72px;
+    }
+
+    .team-content h2 {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .team-img-part-1,
+    .team-img-part-2 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .team-img-part-1 .span {
+        display: none;
+    }
+
+    .team-img-part-2 .span {
+        display: none;
+     }
+
+    .team-img-part-1,.team-img-part-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* -------------------------------Medium device------------------------ */
 }
 
 @media screen and ((min-width:560px) and (max-width:992px)) {
