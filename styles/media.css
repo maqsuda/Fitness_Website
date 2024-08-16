@@ -29,34 +29,37 @@
     }
 
     .banner-section-left {
-        width: 22rem;
-        height: 20rem;
-        margin-bottom: 2rem;
+        width: 90%;
+        height: auto;
+
     }
 
     .banner-section-left h1 {
+        width: auto;
+        height: auto;
         font-size: 36px;
         font-weight: 900;
+
     }
 
     .banner-section-left p {
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
         margin-left: 1.25rem;
         margin-right: 1.25rem;
-        width: 22rem;
-        height: 5rem;
-
     }
 
     .banner-section-right {
-        width: 353px;
-        height: 36rem;
+        width: auto;
+        height: auto;
         left: 20px;
-        margin-top: 20rem;
+        margin-top: 15rem;
     }
 
     .banner-section-left button {
-        width: 169px;
-        height: 54px;
+        width: auto;
+        height: auto;
         font-size: 14px;
         font-weight: 600;
     }
@@ -220,18 +223,19 @@
     .meet-our-team-container {
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 90%;
         height: auto;
         margin-top: 1rem;
-
+       
 
     }
 
     .team-content {
+        width: auto;
         margin-top: 1rem;
         margin-bottom: 3rem;
         height: auto;
-        border: 2px solid red;
+       
     }
 
     .meet-header-part p {
@@ -248,7 +252,6 @@
     .team-img-part-1,
     .team-img-part-2 {
         flex-direction: column;
-        gap: 0.5rem;
     }
 
     .team-img-part-1 .span {
@@ -261,7 +264,7 @@
 
     .team-img-part-1, .team-img-part-2 {
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
     }
 
     /* ----------------------------------Footer------------------------------------------------ */
@@ -269,8 +272,9 @@
     .footer-container {
         width: auto;
         height: auto;
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
+        margin-top: 30rem;
         border: 2px solid red;
     }
 

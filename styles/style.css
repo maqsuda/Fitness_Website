@@ -58,12 +58,54 @@ h5 {
   letter-spacing: 0.3px;
   text-align: left;
 }
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  padding: 16px 40px 16px 40px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  /* text-align: left; */
+}
+
+
+.primary_text {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 120%;
+
+}
+
+.secondary_text {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 800;
+}
+
 .third_text {
   color: rgba(255, 255, 255, 0.5);
   font-family: Inter;
   font-size: 23px;
   font-weight: 400;
 }
+
 
 .container {
   width: 90%;
@@ -155,6 +197,9 @@ h5 {
   padding-bottom: 2rem;
 }
 
+
+
+
 .banner-section-left>.btn-primary {
   display: flex;
   flex-direction: row;
@@ -192,25 +237,7 @@ h5 {
   height: 40rem;
 }
 
-.banner-section-right-1 {
-  margin: 0;
-  padding: 0;
-  width: 25rem;
-  height: 96px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  border: 0.76px solid rgba(255, 255, 255, 0.1);
-  border-radius: 9.07px;
-  backdrop-filter: blur(15.12px);
-  background: rgba(255, 255, 255, 0.1);
-margin-top: 10rem;
-}
-
 .banner-section-right-1 h3 {
-  /* margin-top: 5px; */
-  margin: 0;
-  padding: 0;
   text-align: left;
 }
 
@@ -219,10 +246,28 @@ margin-top: 10rem;
 }
 
 
+
+.banner-section-right-1 {
+  margin: 0;
+  padding: 0;
+  width: 25rem;
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9.07px;
+  backdrop-filter: blur(15.12px);
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 20rem;
+  margin-left: 2px;
+}
+
 .banner-section-right-3 {
   margin: 0;
   padding: 0;
-  width: 20rem;
+  width: 25rem;
   height: 96px;
   display: flex;
   flex-direction: row;
@@ -231,8 +276,8 @@ margin-top: 10rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   background: rgba(48, 48, 48, 0.54);
-  margin-top: 25rem;
-  margin-right: 800rem;
+  margin-top: 2px;
+  margin-right: 8rem;
 }
 
 
@@ -673,8 +718,8 @@ margin-top: 10rem;
 .meet-our-team-container {
   width: 90%;
   height: auto;
- 
-  }
+
+}
 
 
 .team-content {
@@ -715,7 +760,7 @@ margin-top: 10rem;
 
 .team-img {
   width: 90%;
-  height: 38rem;
+  height: auto;
   padding: 10px 20;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
@@ -770,9 +815,10 @@ margin-top: 10rem;
 
 /* -----------------------------------------Footer ----------------------------------------------- */
 .footer-container {
-  width: 100%;
-  margin: 0 auto;
-  height: 489px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  
   background-color: black;
   color: white;
   background: rgba(255, 255, 255, 0.1);
@@ -787,7 +833,7 @@ margin-top: 10rem;
   margin-top: 50px;
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-left: 11rem;
+  margin-left: 1rem;
   text-align: left;
 
 }
@@ -795,7 +841,7 @@ margin-top: 10rem;
 .part-1 {
   width: 443px;
   height: 200px;
-  margin-right: 10rem;
+  margin-right: 10px;
 
 }
 
