@@ -11,6 +11,15 @@ body {
 
 }
 
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: left;
+}
+
 h2 {
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -29,6 +38,16 @@ h3 {
   text-align: left;
 }
 
+h4 {
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+
+}
+
 
 h5 {
   color: rgb(250, 250, 249);
@@ -38,6 +57,12 @@ h5 {
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: left;
+}
+.third_text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 400;
 }
 
 .container {
@@ -99,6 +124,156 @@ h5 {
   font-weight: bold;
   margin-top: 3.8rem;
 }
+
+/* ---------------------------------------Banner Section--------------------------------------- */
+
+.banner-section {
+  /* width: 90rem; */
+  height: 40rem;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  margin-bottom: 0;
+
+}
+
+.banner-section-left {
+  width: 38rem;
+  height: 100%;
+
+}
+
+.banner-section-left h1 {
+  width: 38rem;
+  height: 17rem;
+  padding-bottom: 2rem;
+
+}
+
+.banner-section-left p {
+  width: 38rem;
+  height: 3rem;
+  padding-bottom: 2rem;
+}
+
+.banner-section-left>.btn-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.banner-section-left button:nth-child(1) {
+  background: rgb(230, 83, 60);
+  margin-right: 10px;
+}
+
+.banner-section-left button:nth-child(2) {
+  background: black;
+}
+
+
+.banner-section-right {
+
+  width: 38rem;
+  height: 27.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+}
+
+.banner-img {
+  background-image: url(../images/images-2.png);
+  background-repeat: no-repeat;
+  width: 28rem;
+  height: 40rem;
+}
+
+.banner-section-right-1 {
+  margin: 0;
+  padding: 0;
+  width: 25rem;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9.07px;
+  backdrop-filter: blur(15.12px);
+  background: rgba(255, 255, 255, 0.1);
+margin-top: 10rem;
+}
+
+.banner-section-right-1 h3 {
+  /* margin-top: 5px; */
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.banner-section-right-1 p {
+  margin-top: 5px;
+}
+
+
+.banner-section-right-3 {
+  margin: 0;
+  padding: 0;
+  width: 20rem;
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(48, 48, 48, 0.54);
+  margin-top: 25rem;
+  margin-right: 800rem;
+}
+
+
+.banner-section-right-3 h3 {
+  /* margin-top: 5px; */
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.banner-section-right-3 p {
+  margin-top: 5px;
+}
+
+
+.icon-circle {
+  background: rgb(230, 83, 60);
+  border-radius: 48rem;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  color: rgb(230, 83, 60);
+}
+
+.banner-section-right-3 .icon-circle-desc {
+  width: 10rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.banner-play {
+  width: 14.63px;
+  height: 20px;
+}
+
+
+
 
 /* ---------------------------------Change your Habits --------------------------------- */
 
@@ -277,7 +452,7 @@ h5 {
 .training-and-exercise-img img {
   width: 100%;
   height: 220px;
-  
+
 }
 
 .trainee-name {
@@ -440,8 +615,8 @@ h5 {
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 20px;
- 
-  }
+
+}
 
 .calculator-bmi p {
   width: 577px;
@@ -450,7 +625,7 @@ h5 {
   font-size: 14px;
   font-weight: 400;
   line-height: 120%;
- 
+
 }
 
 .calculator-bmi td {
@@ -496,33 +671,32 @@ h5 {
 /* ---------------------------------------------------Meet Our Team-------------------------------------- */
 
 .meet-our-team-container {
-  width: 1440px;
-  height: 489px;
-  margin-bottom: 20rem;
-
-}
+  width: 90%;
+  height: auto;
+ 
+  }
 
 
 .team-content {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
-.header-part {
-  width: 671px;
+.meet-header-part {
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
-.header-part h2 {
+.meet-header-part h2 {
+  margin: 0;
+  padding: 0;
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 48px;
@@ -530,7 +704,7 @@ h5 {
   margin-bottom: 1rem;
 }
 
-.header-part p {
+.meet-header-part p {
   color: rgba(255, 255, 255, 0.5);
   font-family: Inter;
   font-size: 14px;
@@ -583,7 +757,7 @@ h5 {
   transform: translate(-25%, -75%);
 }
 
-.employee{
+.employee {
   position: absolute;
   left: 25%;
   top: 85%;
@@ -591,4 +765,90 @@ h5 {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
   transform: translate(-25%, -75%);
+}
+
+
+/* -----------------------------------------Footer ----------------------------------------------- */
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 489px;
+  background-color: black;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  width: 100%;
+  height: 249px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 11rem;
+  text-align: left;
+
+}
+
+.part-1 {
+  width: 443px;
+  height: 200px;
+  margin-right: 10rem;
+
+}
+
+.part-1 h1 {
+  padding-bottom: 0;
+  color: #E6533C;
+}
+
+.part-1 p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+.part-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 40px;
+  /* margin-left: 1rem; */
+
+}
+
+.part-2 .part-2a {
+  margin-left: 2rem;
+}
+
+.copyright hr {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 1440px;
+  margin-left: 11rem;
+  margin-top: 40px;
+}
+
+.copyright p {
+  margin-left: 180px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.copyright {
+  margin-top: 30px;
+  /* width: 1059px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
